@@ -60,10 +60,10 @@
   "books": [
     {
       "id": 1,
-      "name": "Celestial ",
+      "name": "Celestial 1",
       "isbn": "4628952319",
       "authors": [
-        "Jokha Alharthi",
+        "Jokha Alharthi1",
         null
       ]
     },
