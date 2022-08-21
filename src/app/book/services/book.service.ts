@@ -13,9 +13,9 @@ export class BookService {
     addFlag = false;
     editFlag = false;
     books : Book[] = [
-      {id : 1, name: "Celestial Bodies", authors:["Jokha Alharthi"], isbn: "4628952319" },
-      {id : 2, name: "Cheque book", authors:["Vasdev Mohi"], isbn: "6435243513" },
-      {id : 3, name: "The Overstory", authors:["Richard Powers"], isbn: "1254521235" }
+      {id : 1, name: "	The Grass is Always Greener", authors:["Jeffrey Archer"], isbn: "1-86092-049-7" },
+      {id : 2, name: "	Murder!", authors:["Arnold Bennett (1867-1931)"], isbn: "1-86092-012-8" },
+      {id : 3, name: "A Boy at Seven", authors:["John Bidwell"], isbn: "1-86092-022-5" }
 
     ];
 
@@ -38,7 +38,7 @@ export class BookService {
       return this.http.delete(`http://localhost:3000/books/${book.id}`)
     }
 //-----------------------------------------------------------------------------------------------------
-    
+
     // getBooks(){
     //   return this.books
 
@@ -48,7 +48,7 @@ export class BookService {
     //   book.id = this.id
     //   this.id++
     //   this.books.push(book)
-    
+
     // }
 
     editBookForm(id:number, books : Book[]){
@@ -72,7 +72,7 @@ export class BookService {
   //     }
   //   })
   //   console.log("newBook " + newBook.id)
-  
+
   //}
   deleteAll(){
     return this.books = []
