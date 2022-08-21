@@ -25,9 +25,9 @@
   "blogs": [
     {
       "id": 1,
-      "title": "How to make an apple juice",
-      "description": "making an apple juice using a blender",
-      "author": "Apple Juice Maker",
+      "title": "A Life in Books",
+      "description": "Books importance",
+      "author": "Susan Osborne",
       "comments": [
         "Good work!!!",
         "Its so easy to do",
@@ -36,12 +36,12 @@
     },
     {
       "id": 2,
-      "title": "A day in a life of a software engineer",
-      "description": "Watch a day in my life as a software engineer at Microsoft’s headquarters near Seattle. While I am based in Silicon Valley, I sometimes travel to the Redmond headquarters in person, and I hope you enjoy a sneak peak into all the cool stuff at the Redmond Campus. ",
+      "title": "Paris Tour",
+      "description": "A walk in a beautiful ity of Paris",
       "author": "Justin Hammond",
       "comments": [
-        "Commutes over Lake Washington are everything! I live for the scenery! Great vlog!",
-        "True life of every software engineer ",
+        "Lovely tour",
+        "True life of a Parisian",
         "Loving the vlog man keep it up!!"
       ]
     },
@@ -60,28 +60,28 @@
   "books": [
     {
       "id": 1,
-      "name": "Celestial 1",
+      "name": "The Grass is Always Greener",
       "isbn": "4628952319",
       "authors": [
-        "Jokha Alharthi1",
+        "Jeffrey Archer",
         null
       ]
     },
     {
       "id": 2,
-      "name": "Cheque book",
+      "name": "Murder!",
+      "isbn": "6435243513",
       "authors": [
-        "Vasdev Mohi"
-      ],
-      "isbn": "6435243513"
+        "Arnold Bennett"
+      ]
     },
     {
       "id": 3,
-      "name": "The Overstory",
+      "name": "A Boy at Seven",
+      "isbn": "1254521235",
       "authors": [
-        "Richard Powers"
-      ],
-      "isbn": "1254521235"
+        "John Bidwell"
+      ]
     }
   ]
 }

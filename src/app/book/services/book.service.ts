@@ -15,7 +15,7 @@ export class BookService {
   books: Book[] = [
     {
       id: 1,
-      name: '	The Grass is Always Greener',
+      name: 'The Grass is Always Greener',
       authors: ['Jeffrey Archer'],
       isbn: '1-86092-049-7',
     },
