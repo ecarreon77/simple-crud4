@@ -5,34 +5,28 @@ import { Router } from '@angular/router';
 @Component({
   selector: 'app-profile',
   templateUrl: './profile.component.html',
-  styleUrls: ['./profile.component.scss']
+  styleUrls: ['./profile.component.scss'],
 })
 export class ProfileComponent implements OnInit {
-  profileForm : FormGroup
-  constructor(private fb: FormBuilder, private router : Router) { 
-
+  profileForm: FormGroup;
+  constructor(private fb: FormBuilder, private router: Router) {
     this.profileForm = this.fb.group({
-      email : [''],
+      email: [''],
       name: [''],
       bio: [''],
-      activate: ['']
-
-    })
-
-
+      activate: [''],
+    });
   }
 
-  ngOnInit(): void {
+  ngOnInit(): void {}
+
+  submit() {
+    console.log(this.profileForm.value);
   }
 
-submit(){
-
-  console.log(this.profileForm.value)
-}
-
-logout(){
-  localStorage.removeItem('token')
-  console.log('logged out')
-  this.router.navigate(['login'])
-}
+  logout() {
+    localStorage.removeItem('token');
+    console.log('logged out');
+    this.router.navigate(['login']);
+  }
 }
