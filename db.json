@@ -10,24 +10,31 @@
     {
       "email": "email@email.com",
       "password": "$2a$10$uY1hJGwhhAdTOcQWSm/DYOTmthD4sp6inZO00MbD175gwkOMKivrK",
-      "firstname": "emman",
-      "lastname": "roxas",
+      "firstname": "edrick",
+      "lastname": "carreon",
       "id": 2
     },
     {
-      "email": "rajubueno411@gmail.com",
-      "password": "$2a$10$GTxRDIL2C1cQO4FiiJ8yreywe.Oz/C/kjrUTYNMey6PO.XgSvg.Ge",
-      "firstname": "FERMIN",
-      "lastname": "PATDU",
+      "email": "edrickcarreon@gmail.com",
+      "password": "$edrickpogi",
+      "firstname": "Edrick",
+      "lastname": "Carreon",
       "id": 3
+    },
+    {
+      "email": "edrickcarreon@gmail.com",
+      "password": "edrickpogi",
+      "firstname": "Edrick",
+      "lastname": "Carreon",
+      "id": 4
     }
   ],
   "blogs": [
     {
       "id": 1,
-      "title": "A Life in Books",
-      "description": "Books importance",
-      "author": "Susan Osborne",
+      "title": "Fear of a Black Nation",
+      "description": "Race, Sex, and Security in Sixties Montreal",
+      "author": "David Austin",
       "comments": [
         "Good work!!!",
         "Its so easy to do",
@@ -36,51 +43,51 @@
     },
     {
       "id": 2,
-      "title": "Paris Tour",
-      "description": "A walk in a beautiful ity of Paris",
-      "author": "Justin Hammond",
+      "title": "Disarm, Defund, Dismantle",
+      "description": "Police Abolition in Canada",
+      "author": "Shiri Pasternak",
       "comments": [
-        "Lovely tour",
-        "True life of a Parisian",
-        "Loving the vlog man keep it up!!"
+        "Good",
+        "Good Blog",
+        "Very Good Blog"
       ]
     },
     {
       "id": 3,
-      "title": "Learn How To Build A Website In 1 Hour!",
-      "description": "Building a website can be hard, so in this video I will walk you through building a full website in one hour. This website is based on a product that is a spin off of Spotify. The design was created by Dev Ed, and he has his own video on how to design the site linked below.",
-      "author": "Web Dev Simplified",
+      "title": "Disarm, Defund, Dismantle",
+      "description": "Police Abolition in Canada",
+      "author": "Shiri Pasternak",
       "comments": [
-        "All I have to say is: everything I had to know you showed in this video... The foundation, the basic which are so important. Thank you so much",
-        "Beautiful. Between the two of you, I learned a lot. Can't wait to put it into practice.",
-        "This is just a Next Level Tutorial ! Love it! You have skills for teaching :)"
+        "Good",
+        "Good Blog",
+        "Very Good Blog"
       ]
     }
   ],
   "books": [
     {
       "id": 1,
-      "name": "The Grass is Always Greener",
-      "isbn": "4628952319",
+      "name": "Animal Farm",
+      "isbn": "9780451526342",
       "authors": [
-        "Jeffrey Archer",
+        "George Orwell",
         null
       ]
     },
     {
       "id": 2,
-      "name": "Murder!",
-      "isbn": "6435243513",
+      "name": "Arms and the Man",
+      "isbn": "9781494863067",
       "authors": [
-        "Arnold Bennett"
+        "G.B.Shaw"
       ]
     },
     {
       "id": 3,
-      "name": "A Boy at Seven",
-      "isbn": "1254521235",
+      "name": "Ben Hur",
+      "isbn": "9780192831996",
       "authors": [
-        "John Bidwell"
+        "Lewis Wallace"
       ]
     }
   ]

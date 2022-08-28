@@ -1,11 +1,17 @@
 
-<div class = "card">
-  <h1 class = "title items"> {{book?.name}}</h1>
-  <div class = "authors items">Author: {{book?.authors}}</div>
-  <div class ="isbn items">ISBN: {{book?.isbn}}</div>
-  <div class = "btn-container items">
-    <button class ="btn" (click) = "edit()" routerLink = "/book/form">Edit</button>
+<div class="mat-card-crv">
+  <mat-card class="example-card" layout="row" layout-align="center center">
+    <mat-card-title>{{book?.name}}</mat-card-title>
+    <img mat-card-sm-image src="https://th.bing.com/th/id/R.9650ca99c803f7cab9cf0677287d7d91?rik=sKxL0bKNiwMBQQ&riu=http%3a%2f%2fwww.pixelstalk.net%2fwp-content%2fuploads%2f2016%2f06%2fBook-HD-Wallpapers-download.jpeg&ehk=MifFVbxVMTDTdMfXAq%2baR1n9ibYdVtU2JJf%2bP50ACvk%3d&risl=&pid=ImgRaw&r=0" >
+    <mat-card-subtitle>Author: {{book?.authors}}</mat-card-subtitle>
+    <mat-card-content>ISBN: {{book?.isbn}}</mat-card-content>
+    <mat-divider inset></mat-divider>
+  <mat-card-actions>
+    <button class ="btn" (click) = "edit()"  routerLink = "/blog/form">Edit</button>
     <button class = "btn" (click) = "delete()">Delete</button>
-</div>
-
+  </mat-card-actions>
+<mat-card-footer>
+  <mat-progress-bar mode="indeterminate"></mat-progress-bar>
+</mat-card-footer>
+</mat-card>
 </div>
